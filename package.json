@@ -1,6 +1,6 @@
 {
   "name": "@microsoft.azure/autorest.php",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "description": "The PHP extension for classic generators in AutoRest.",
   "scripts": {
     "start": "dotnet src/bin/netcoreapp2.0/autorest.php.dll --server",
