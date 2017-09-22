@@ -287,5 +287,10 @@ __pycache__/
 *.odx.cs
 *.xsd.cs
 
-package-lock.json
+yarn.lock
+
+package/
+*.tar
 *.tgz
+src/obj/
+*.log
