@@ -1,12 +1,15 @@
 {
   "name": "@microsoft.azure/autorest.php",
-  "version": "1.9.2",
+  "version": "2.0.0",
   "description": "The PHP extension for classic generators in AutoRest.",
   "scripts": {
+    "autorest": "autorest",
     "start": "dotnet src/bin/netcoreapp2.0/autorest.php.dll --server",
     "test": "gulp test",
+    "testci": "gulp test",
     "build": "gulp build",
     "prepare": "gulp build",
+    "publish-preview": "gulp publish-preview",
     "clean": "gulp clean",
     "nuke": "git clean -xdf"
   },
@@ -27,6 +30,7 @@
   },
   "homepage": "https://github.com/Azure/autorest.php/blob/master/README.md",
   "devDependencies": {
+    "autorest": "^2.0.0",
     "coffee-script": "^1.11.1",
     "dotnet-sdk-2.0.0": "^1.1.1",
     "gulp": "^3.9.1",
