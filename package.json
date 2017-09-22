@@ -6,6 +6,7 @@
     "autorest": "autorest",
     "start": "dotnet src/bin/netcoreapp2.0/autorest.php.dll --server",
     "test": "gulp test",
+    "testci": "gulp test",
     "build": "gulp build",
     "prepare": "gulp build",
     "publish-preview": "gulp publish-preview",
